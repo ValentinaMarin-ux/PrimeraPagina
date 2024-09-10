@@ -1,0 +1,150 @@
+*{
+  
+
+margin: 0;
+padding: 0;
+}
+
+body{
+    font-family: "roboto";
+    background: white;
+
+}
+
+#contenedor{
+    font-family: "roboto";
+    width: 900px;
+    background: white;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background: pink;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+    font-weight: bold;
+   
+    font-size: 24px;
+    line-height: 90px; /* Esto centra el texto verticalmente */
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: white;
+    margin: 20px auto 
+    ;
+}
+
+nav #barra{
+    display: flex;
+    justify-content: space-around;
+   
+    font-weight: bold;
+
+}
+nav #barra .link{
+    list-style: none;
+}
+
+#section{
+    width: 100%;
+    height: 350px;
+   
+    background-color: white;
+    
+   
+}
+
+#section .article{
+   
+    display: flex;
+    margin: 20px auto;
+
+    align-items: center;
+
+
+   
+}
+
+#section .article img{
+    width: 200px;
+    height: 300px;
+    padding-left: 20 px;
+    border-radius: 8px;
+   
+}
+
+p {
+
+
+    color: #555555;
+    line-height: 1.2;
+    text-align: center;
+
+  }
+  
+  #formulario{
+    width: 100%;
+    height: 200px;
+    margin: 20PX auto;
+    align-items: center;
+    justify-content: center;
+  }
+  #formulario form{
+    display: flex;
+    justify-content: center;
+    margin: 20PX auto;
+    align-items: center;
+  }
+
+  #formulario button{
+    
+    align-items: center;
+    border-radius: 8px;
+    background: pink;
+    margin: 20PX auto;
+  }
+
+  #formulario div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  footer{
+    width: 100%;
+    height: 90px;
+    margin: 20px auto;
+    background:pink;
+    border-radius: 0 0 8px 8px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.linkDos a img{
+    width: 60px;
+    height: 60px;
+    margin: 20px auto;
+    
+
+}
+.linkDos a img:hover{
+   transform: scale(1.1);
+
+}
+
+
+.linkDos{
+    list-style: none;
+}
+
